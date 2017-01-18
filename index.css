@@ -1,0 +1,261 @@
+
+html{width: 100%; height: 100%;}
+body{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+/*CSS cho topheader*/
+.topheader {
+    margin: 50px 0px 20px 0;
+} 
+.topheader .trai i{
+	color: #ff9c00;
+	margin-right: 15px;
+}
+
+.topheader .trai p {
+    font-size: 15px;
+    color: #777777;
+    margin: 0;
+     margin-bottom: 10px; 
+}
+.topheader .trai p.mg{
+	margin-bottom: 0;
+}
+.topheader .trai p span {
+    color: #222222;
+    font-weight: 600;
+}
+.topheader .trai p a {
+    color: #222222;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.topheader .logo img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.topheader .phai a.nut {
+    font-size: 12px;
+    color: #222222;
+    font-weight: 700;
+    border-radius: 20px;
+    background: #ff9c00;
+    border-color: #ff9c00;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.topheader .phai i {
+    font-size: 15px;
+    color: #222222;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+.topheader .phai a.nut:hover{
+	color: #ff9c00;
+	border-color: #ff9c00;
+	background-color: white;
+}
+.topheader .phai i:hover{
+	color: #ff9c00;
+}
+.topheader .trai p a:hover{
+	text-decoration: none;
+	color: #ff9c00;
+}
+
+@media (max-width: 576px){
+
+	.topheader .trai {
+	    text-align: center;
+	}
+
+	.topheader .phai {
+	    text-align: center;
+	    margin-top: 20px;
+	}
+	.topheader .logo{
+		margin-top: 20px;
+	}
+}
+
+/*END CSS CHO topheader*/
+
+/*CSS cho topmenu*/
+
+.topmenu ul.navbar-nav li.nav-item a.nav-link {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 20px 23px;
+    transition: 0.2s;
+}
+.topmenu ul.navbar-nav li.nav-item.active a.nav-link{
+	color: #ff9c00;
+	border-top: 1px solid #ff9c00;
+}
+.topmenu ul.navbar-nav li.nav-item a.nav-link:hover{
+	color: #ff9c00;
+	border-top: 1px solid #ff9c00;
+}
+
+@media (max-width: 576px){
+	
+	button.navbar-toggler.hidden-sm-up.float-xs-right {
+		border: 1px solid #ff9c00;
+	}
+	.topmenu ul.navbar-nav li.nav-item.active a.nav-link{
+		border-top: none;
+	}
+	
+	.topmenu ul.navbar-nav li.nav-item a.nav-link {
+	    padding: 10px 0;
+	    border-bottom: 1px solid #e0e0e0;
+	}
+
+	div#exCollapsingNavbar2 {
+	    margin-top: 40px;
+	    
+	}
+	.topmenu ul.navbar-nav li.nav-item a.nav-link:hover{
+	border-top: none;
+	}
+}
+/*END TOPMENU*/
+
+/*CSS CHO SLIDE*/
+.slide .carousel-item{
+	
+	padding-top: 80px;
+	padding-bottom: 50px;
+	
+}
+.slide .slide1{
+	background: url(images/slide_1.jpg) no-repeat center;
+	background-size: cover;
+}
+.slide .slide2{
+	background: url(images/slide_2n.jpg) no-repeat center;
+	background-size: cover;
+}
+.slide .slide3{
+	background: url(images/slide_3n.jpg) no-repeat center;
+	background-size: cover;
+}
+.slide .carousel-item h1 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	color: white;
+	font-size: 60px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.slide .carousel-item p {
+    font-size: 18px;
+    color: white;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.slide .carousel-item .scroll_down {
+	color: white;
+	font-size: 10px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.slide .carousel-item .scroll_down i {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.slide a.left {
+    height: 0;
+    opacity: 1;
+    top: 337.5px;
+    left: 4%;
+}
+
+.slide a.left i {
+    background: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.slide a.left i:hover{
+	color: white;
+	background-color: #ff9c00;
+}
+.slide a.right {
+    height: 0;
+    opacity: 1;
+    top: 337.5px;
+    right: 4%;
+}
+
+.slide a.right i {
+    background: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.slide a.right i:hover{
+	color: white;
+	background-color: #ff9c00;
+}
+
+@media (max-width: 576px){
+	
+	.slide .carousel-item{
+		height: 170px;
+	}
+
+	.slide .carousel-item img {
+	    display: none;
+	}
+
+	.slide .carousel-item h1 {
+	    font-size: 20px;
+	    transform: translateY(-70px);
+	    padding: 0 69px;
+	}
+
+	.slide .carousel-item p {
+	    display: none;
+	}
+
+	.slide .carousel-item .scroll_down {
+	    transform: translateY(-70px);
+	    font-size: 8px;
+	}
+	.slide .carousel-item .scroll_down i{
+		font-size: 10px;
+	}
+	.slide a.left i {
+	    transform: translateY(-270px);
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 16px;
+	}
+	.slide a.right i {
+	    transform: translateY(-270px);
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 16px;
+	}
+}
+*{margin: 0;padding: 0;}
