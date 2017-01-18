@@ -7,10 +7,7 @@ body{
 }
 
 /*CSS cho topheader*/
-.topheader {
-    margin: 50px 0px 20px 0;
-} 
-.topheader .trai i{
+ .topheader .trai i{
 	color: #ff9c00;
 	margin-right: 15px;
 }
